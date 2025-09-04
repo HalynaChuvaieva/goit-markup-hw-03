@@ -1,0 +1,140 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+    letter-spacing: 0.02em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.page-logo {
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.web-logo {
+    color: #2E2F42;
+}
+
+.nav-link {
+    color: #2E2F42;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.nav-link:hover,
+.contacts:hover,
+.nav-link:focus {
+    color: #404bbf;
+}
+
+.contacts:focus {
+    color: #404bbf;
+}
+
+.contacts-list {
+    line-height: 1.5;
+    font-style: normal;
+}
+
+.page-title {
+    color: #ffffff;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.first-section {
+    background-color: #2E2F42;
+}
+
+.button {
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background: #4d5ae5;
+}
+
+.button:hover {
+    background: #404bbf;
+}
+
+.button:focus {
+    background: #404bbf;
+}
+
+.section-title {
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.feature {
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.feature-description {
+    line-height: 1.5;
+}
+
+.team {
+    background-color: #F4F4FD;
+}
+
+.card {
+    background-color: #FFFFFF;
+}
+
+.name {
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.card .name,
+.card .type {
+    text-align: center;
+}
+
+.type {
+    line-height: 1.5;
+}
+
+
+.page-footer {
+    background: #2e2f42;
+    color: #f4f4fd;
+}
+
+.footer-text {
+    line-height: 1.5;
+}
+
+.web-logo-footer {
+    color: #F4F4FD;
+}
