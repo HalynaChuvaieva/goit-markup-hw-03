@@ -210,15 +210,12 @@ img{
 
 .app-card{
     width: calc(100%-24*2/3);
+}
+
+.text{
     border: 1px solid #e7e9fc;
-}
-
-.app-card .type{
-    margin-bottom: 32px;
-}
-
-.app-card .name, .app-card .type{
-    margin-left: 16px;
+    padding-left: 16px;
+    padding-bottom: 32px;
 }
 
 .page-footer {
@@ -226,8 +223,14 @@ img{
     color: #f4f4fd;
 }
 
+.footer-container{
+    padding: 100px 0;
+}
+
 .footer-text {
     line-height: 1.5;
+    padding-top: 16px;
+    max-width: 264px;
 }
 
 .web-logo-footer {
